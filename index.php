@@ -126,7 +126,7 @@
         <script src="http://cdn.jtsage.com/datebox/latest/jqm-datebox.core.min.js"></script>
         <script src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.mode.datebox.min.js"></script>
         
-        <script type="text/javascript">
+		<script type="text/javascript">
 		   jQuery(function() {
 			   $("#link").on('click', function(e) {
 			      	e.preventDefault();
@@ -134,7 +134,7 @@
 			      	var ua = navigator.userAgent.toLowerCase();
 				  	var body = encodeURIComponent($('#id').val() + " " + $('#type').val() + " " + $('#startdate').val().replace(/-/g, "") + " " + $('#starttime').val().replace(':', '') + " " + $('#enddate').val().replace(/-/g, "") + " " + $('#endtime').val().replace(':', ''));
 			          
-	    			if (ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1)
+					if (ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1)
 				      	location.href = $(this).attr('href') + 'sms:07860023004&body=' + body
 				    else
 				    	location.href = $(this).attr('href') + 'sms:07860023004?body=' + body

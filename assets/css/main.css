@@ -8,9 +8,9 @@ body {
 	font-size:1.4rem;
 	line-height:1.5em;
 	font-weight:400;
-	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	font-family: monaco, monospace;
 	letter-spacing:.05rem;
-	color:#666;
+	color:#444;
 	background:#fff;
 	-webkit-overflow-scrolling:touch;
 }
